@@ -2,5 +2,5 @@
 layout: site
 ---
 <a href="{{ page.url }}"><h2>{{ page.title }}</h2></a>
-{% if page.draft %}{% include draft.html %}
+{% if page.draft %}{% include draft.html %}{% endif %}
 {{ content }}

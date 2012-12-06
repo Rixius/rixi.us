@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
+	<title>{% if page.title %}{{ page.title }} | {% endif %}rixi.us</title>
+	<link rel="stylesheet" href="/css/app.css" />
 	</head>
 	<body>
+<div id="main">
+<h1>Stephen "Rixius" Middleton</h1>
 {{ content }}
+{% include footer.html %}
+</div>
 {% include nav.html %}
 	</body>
 </html>
