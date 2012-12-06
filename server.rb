@@ -2,7 +2,7 @@
 require 'webrick'
 
 options = {
-	:Port => 4000,
+	:Port => (ENV['PORT']? ENV['PORT'] : 3000),
 	:DocumentRoot => Dir.pwd + '/_site'
 }
 
