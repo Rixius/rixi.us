@@ -1,7 +1,18 @@
 ---
 ---
+$color1: #590000;
+$color2: #ff0b0b;
+$color3: #42ffed;
+$color4: #acacac;
+
 html, body {
 	/*position: fixed;*/
+	background-color: $color1;
+	color: $color3;
+}
+a,
+a:visited {
+	color: $color4;
 }
 #main {
 	/*float: left;*/
@@ -17,19 +28,44 @@ nav {
 	width: 200px;
 	border: 1px solid black;
 	padding: 15px;
-	background-color: #eee;
+	background-color: $color4;
+	color: $color1;
+	a, a:visited {
+		color: $color1;
+	}
+	> ul,
+	> ul ul {
+		padding: 0px;
+		text-align: center;
+		> li,
+		ul > li {
+			list-style: none;
+			padding-top: 3px;
+			padding-bottom: 2px;
+		}
+		ul > li {
+			background-color: $color1;
+			color: $color4;
+			border-top: 1px solid $color3;
+		}
+		ul > li:first-child {
+			border: none;
+		}
+	}
 }
-nav > ul,
-nav > ul ul {
-	padding: 0px;
-	text-align: center;
-}
-nav > ul > li,
-nav > ul ul > li {
-	list-style: none;
-	padding-top: 3px;
-	padding-bottom: 2px;
-}
-nav > ul ul > li {
-	background-color: #ccc;
+.js {
+	nav > ul {
+		> li {
+			cursor: pointer;
+		}
+		> li.close span:after {
+			content: " +";
+		}
+		> li.open span:after {
+			content: " -";
+		}
+		ul {
+			display: none;
+		}
+	}
 }

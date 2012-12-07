@@ -1,5 +1,11 @@
 html, body {
-  /*position: fixed;*/ }
+  /*position: fixed;*/
+  background-color: #590000;
+  color: #42ffed; }
+
+a,
+a:visited {
+  color: #acacac; }
 
 #main {
   /*float: left;*/
@@ -15,18 +21,35 @@ nav {
   width: 200px;
   border: 1px solid black;
   padding: 15px;
-  background-color: #eee; }
+  background-color: #acacac;
+  color: #590000; }
+  nav a, nav a:visited {
+    color: #590000; }
+  nav > ul,
+  nav > ul ul {
+    padding: 0px;
+    text-align: center; }
+    nav > ul > li,
+    nav > ul ul > li,
+    nav > ul ul > li,
+    nav > ul ul ul > li {
+      list-style: none;
+      padding-top: 3px;
+      padding-bottom: 2px; }
+    nav > ul ul > li,
+    nav > ul ul ul > li {
+      background-color: #590000;
+      color: #acacac;
+      border-top: 1px solid #42ffed; }
+    nav > ul ul > li:first-child,
+    nav > ul ul ul > li:first-child {
+      border: none; }
 
-nav > ul,
-nav > ul ul {
-  padding: 0px;
-  text-align: center; }
-
-nav > ul > li,
-nav > ul ul > li {
-  list-style: none;
-  padding-top: 3px;
-  padding-bottom: 2px; }
-
-nav > ul ul > li {
-  background-color: #ccc; }
+.js nav > ul > li {
+  cursor: pointer; }
+.js nav > ul > li.close span:after {
+  content: " +"; }
+.js nav > ul > li.open span:after {
+  content: " -"; }
+.js nav > ul ul {
+  display: none; }
