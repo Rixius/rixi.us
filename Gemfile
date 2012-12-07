@@ -1,4 +1,8 @@
 source :rubygems
 
 
-gem 'jekyll'
+group :development do
+	gem 'jekyll'
+	gem 'sass'
+end
+

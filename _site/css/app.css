@@ -1,33 +1,32 @@
 html, body {
-	/*position: fixed;*/
-}
+  /*position: fixed;*/ }
+
 #main {
-	/*float: left;*/
-	/*width: 80%;*/
-	padding-left: 20px;
-	padding-right: 300px;
-}
+  /*float: left;*/
+  /*width: 80%;*/
+  padding-left: 20px;
+  padding-right: 300px; }
+
 nav {
-	position: fixed;
-	right: 10px;
-	top: 10px;
-	/*float: right;*/
-	width: 200px;
-	border: 1px solid black;
-	padding: 15px;
-	background-color: #eee;
-}
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  /*float: right;*/
+  width: 200px;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: #eee; }
+
 nav > ul,
 nav > ul ul {
-	padding: 0px;
-	text-align: center;
-}
+  padding: 0px;
+  text-align: center; }
+
 nav > ul > li,
 nav > ul ul > li {
-	list-style: none;
-	padding-top: 3px;
-	padding-bottom: 2px;
-}
+  list-style: none;
+  padding-top: 3px;
+  padding-bottom: 2px; }
+
 nav > ul ul > li {
-	background-color: #ccc;
-}
+  background-color: #ccc; }
