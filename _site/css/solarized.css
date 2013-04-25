@@ -1,0 +1,34 @@
+/* dark is default mode, so pair with general html definition */
+body > nav, .light {
+  background-color: #fdf6e3;
+  color: #657b83; }
+  body > nav *, .light * {
+    color: #657b83; }
+  body > nav h1, body > nav h2, body > nav h3, body > nav h4, body > nav h5, body > nav h6, .light h1, .light h2, .light h3, .light h4, .light h5, .light h6 {
+    color: #586e75;
+    border-color: #657b83; }
+  body > nav a, body > nav a:active, body > nav a:visited, .light a, .light a:active, .light a:visited {
+    color: #586e75; }
+  body > nav a, body > nav a:active, body > nav a:visited, body > nav code.url, .light a, .light a:active, .light a:visited, .light code.url {
+    color: #cb4b16; }
+  body > nav h1, body > nav h2, body > nav h3, body > nav h4, body > nav h5, body > nav h6, .light h1, .light h2, .light h3, .light h4, .light h5, .light h6 {
+    color: #cb4b16; }
+
+html, .dark {
+  background-color: #002b36;
+  color: #839496; }
+  html *, .dark * {
+    color: #839496; }
+  html h1, html h2, html h3, html h4, html h5, html h6, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #93a1a1;
+    border-color: #839496; }
+  html a, html a:active, html a:visited, .dark a, .dark a:active, .dark a:visited {
+    color: #93a1a1; }
+  html a, html a:active, html a:visited, html code.url, .dark a, .dark a:active, .dark a:visited, .dark code.url {
+    color: #cb4b16; }
+  html h1, html h2, html h3, html h4, html h5, html h6, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #cb4b16; }
+
+html * {
+  color-profile: sRGB;
+  rendering-intent: auto; }

@@ -1,11 +1,5 @@
 html, body {
-  /*position: fixed;*/
-  background-color: #590000;
-  color: #42ffed; }
-
-a,
-a:visited {
-  color: #acacac; }
+  /*position: fixed;*/ }
 
 #main {
   /*float: left;*/
@@ -20,11 +14,7 @@ nav {
   /*float: right;*/
   width: 200px;
   border: 1px solid black;
-  padding: 15px;
-  background-color: #acacac;
-  color: #590000; }
-  nav a, nav a:visited {
-    color: #590000; }
+  padding: 15px; }
   nav > ul,
   nav > ul ul {
     padding: 0px;
@@ -38,9 +28,7 @@ nav {
       padding-bottom: 2px; }
     nav > ul ul > li,
     nav > ul ul ul > li {
-      background-color: #590000;
-      color: #acacac;
-      border-top: 1px solid #42ffed; }
+      border-top: 1px solid; }
     nav > ul ul > li:first-child,
     nav > ul ul ul > li:first-child {
       border: none; }
