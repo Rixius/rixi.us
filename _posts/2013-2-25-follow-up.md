@@ -3,9 +3,8 @@ title: A Follow-up. Much Later.
 layout: post
 ---
 
-{% excerpt %} I've been under a rock. And by Under a rock, I mean busy as hell.
+I've been under a rock. And by Under a rock, I mean busy as hell.
 I'm making time to write this weekend, but I don't know when I'll push it up to Heroku to be live.
-{% endexcerpt %}
 
 I've messed around a bit with PGP and my SSH keys and such, this time in an intelligent way.
 Last time I started down this rabbit hole, I followed some tutorial blindly, and [A key that was mine that has lost access to the private key long ago.][pgp_key]
