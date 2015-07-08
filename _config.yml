@@ -3,4 +3,4 @@ safe: false
 
 permalink: /blog/:month-:day-:year/:title
 
-exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock, Procfile, server.rb]
+exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock, Procfile, server.rb, vendor]
